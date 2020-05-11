@@ -1,4 +1,12 @@
-@import url('./mobile.scss');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import './scss/partials/variables.scss';
+@import './scss/partials/mixins.scss';
+@import './scss/partials/layout.scss';
+
+
+
+
 
 .autoprefixer {
     user-select: none;

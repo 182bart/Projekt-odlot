@@ -1,0 +1,14 @@
+@mixin box {
+  border: $box-border;
+  border-radius: $box-border-rad;
+
+  box-shadow: $box-shadow;
+
+  height: $box-h;
+  color: $text-color;
+  text-align: center;
+  letter-spacing: 4.5px;
+  font-size: $size;
+  font-weight: bold;
+  -webkit-text-stroke: $stroke;
+}
